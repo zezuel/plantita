@@ -1,0 +1,39 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,8fr);
+    grid-template-rows: repeat(4,8fr);
+}
+img{
+   width: 200px;
+   height: 210px;
+   margin-top: 10%;
+   border-radius: 50%;
+   background-image: -moz-element(150px);
+}
+h1{
+    position: absolute;
+    left: 20%;
+    color: black;
+    background: #1E9600;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body{
+    background-image: url(https://www.fonabosque.gob.bo/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-10-at-10.10.31-1-copia.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.bot1{
+    position: absolute;
+    left: 90%;
+    margin-top: 1%;
+    border-radius: 50%;
+    width: 150px;
+    height: 40px;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
