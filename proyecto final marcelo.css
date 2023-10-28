@@ -1,0 +1,130 @@
+body{
+    background: linear-gradient(237deg, #441212, #000000 50%, #393232 100%);
+
+} 
+
+.cubo{
+    display: grid;
+    grid-template-columns: repeat(3,10fr);
+    grid-template-rows: repeat(3,10fr);
+    gap: 15px;
+}
+.cubo1{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    
+}
+.cubo1:hover{
+    transition: 3s;
+    box-shadow: 0vh 0vh 2vh red; 
+}
+.cubo5{
+    grid-row-start:3 ;
+    grid-row-end: 3;
+}
+.cubo6{
+    grid-row-start:3 ;
+    grid-row-end: 3;
+}
+.cubo7{
+    grid-row-start:3 ;
+    grid-row-end: 3;
+}
+.obj2{
+    display: grid;
+    grid-template-columns: repeat(3,10fr);
+    gap: 15px;
+}
+img{ 
+    width: 50vh;
+    height: 35vh;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+img:hover{
+    transition: 3s;
+    width: 60vh;
+    height: 40vh;
+}
+#imagen1{
+    width: 50%;
+    height: 85%;
+}
+div{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: yellowgreen;
+    border-radius: 5vh;
+    padding: 1vh;
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+h1:hover{
+    transition: 3s;
+    font-size: 6vh;
+}
+#titulo1{
+    text-shadow: 0vh 1vh 2vh red;
+}
+#titulo2{
+    text-shadow: 0vh 1vh 2vh yellow;
+}
+#titulo3{
+    text-shadow: 0vh 1vh 2vh green;
+}
+.cubo2,.cubo3,.cubo4,.cubo5,.cubo6,.cubo7,.cubo8,.cubo9,.cubo10,.cubo11,.cubo12,.cubo13,.cubo14,.cubo15,.cubo16{
+    transition: 1s;
+    box-shadow: 0vh 0vh 2vh green;
+}
+.cubo1:hover, .cubo2:hover, .cubo3:hover, .cubo4:hover, .cubo5:hover, .cubo6:hover{
+    transition: 1s;
+    box-shadow: 0vh 0vh 5vh red; 
+}
+.cubo7:hover, .cubo8:hover, .cubo9:hover, .cubo10:hover, .cubo11:hover, .cubo12:hover, .cubo13:hover, .cubo14:hover, .cubo15:hover, .cubo16:hover{
+    transition: 1s;
+    box-shadow: 0vh 0vh 5vh;
+} 
+.obj1{
+    width: 60%;
+    margin: auto;
+}
+.obj1:hover{
+    transition: 3s;
+    box-shadow: 0vh 0vh 2vh yellow;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; 
+    }
+
+    img {
+        width: 100%; 
+        height: auto;
+    }
+
+    div, h1 {
+        margin: 5px; 
+        padding: 5px;
+    }
+
+    .cubo {
+        display: flex;
+        flex-direction: column;
+    }
+    .obj2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
